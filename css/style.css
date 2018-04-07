@@ -108,6 +108,7 @@ body {
 
 .main_submenu_list_item:first-child {
     border-top: none;
+    padding-top: 20px;
 }
 
 .main_menu_list_item:hover .main_submenu_list_item {
@@ -132,7 +133,7 @@ body {
     font-size: 13px;
     font-weight: 400;
     line-height: 36px;
-    padding-left: 42px;
+    padding-left: 30px;
 }
 
 .dropdown:hover .main_menu_list_item_link {
