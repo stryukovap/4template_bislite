@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "ArialMT";
     src: url ("../fonts/ArialMT.otf");
 }
@@ -11,7 +11,7 @@
 @font-face {
     font-family: "Arial-BoldItalicMT";
     src: url ("../fonts/Arial-BoldItalicMT.otf");
-}
+} */
 
 /* font-family: "Lato","times new roman", sans-serif; */
 
@@ -86,7 +86,7 @@ body {
 .main_menu_list_item_link {
     text-decoration: none;
     color: #000000;
-    font-family: "Arial-BoldMT", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
@@ -129,7 +129,7 @@ body {
 .main_submenu_list_item_link {
     text-decoration: none;
     color: #000000;
-    font-family: "ArialMT", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 36px;
@@ -191,10 +191,9 @@ body {
 /* features */
 
 .features_wrapper {
-    outline: 1px solid red;
     float: left;
-    margin-right: 45px;
-    width: 216px;
+    margin-right: 40px;
+    width: 220px;
 }
 
 .features_wrapper:last-child {
@@ -202,35 +201,102 @@ body {
 }
 
 .features_title {
-    outline: 1px solid green;
     margin: 0;
     text-align: left;
     color: #000000;
-    font-family: "Arial-BoldMT", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+    position: relative;
+    min-height: 40px;
+    padding-left: 59px;
+    padding-top: 8px;
+}
+
+.features_title::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #2aacc8;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.features_title--pen::before {
+    content: "";
+    background-image: url("../img/pen.png");
+    background-size: 21px 24px;
+    background-position-x: 10px;
+    background-position-y: 7px;
+}
+
+.features_title--fullscreen::before {
+    content: "";
+    background-image: url("../img/fullscreen.png");
+    background-size: 21px 17px;
+    background-position-x: 9px;
+    background-position-y: 11px;
+}
+
+.features_title--viewlist::before {
+    content: "";
+    background-image: url("../img/view-list.png");
+    background-size: 16px 16px;
+    background-position: center center;
+}
+
+.features_title--plane::before {
+    content: "";
+    background-image: url("../img/plane-2.png");
+    background-size: 26px 24px;
+    background-position-x: 11px;
+    background-position-y: 9px;
 }
 
 .features_description {
-    outline: 1px solid blue;
     text-align: left;
     color: #363636;
-    font-family: "ArialMT", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     margin: 0;
+    margin-top: 16px;
 }
 
 .features_link {
-    outline: 1px solid purple;
     text-decoration: none;
     color: #2aacc8;
-    font-family: "ArialMT", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     margin: 0;
+    display: block;
+    margin-top: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.features_link:hover {
+    text-decoration-color: #2aacc8;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.features_link::before {
+    content: "";
+    width: 5px;
+    height: 7px;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-size: 5px 7px;
+    position: absolute;
+    top: 5px;
+    left: 0;
 }
