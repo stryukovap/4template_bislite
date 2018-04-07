@@ -155,3 +155,12 @@ body {
     background-size: 7px 5px;
     margin-right: 10px;
 }
+/* gallery */
+.gallery, .gallery_banner_title, gallery_banner_img, gallery_banner{
+    outline: 1px solid green;
+}
+.gallery{background-color: #81e4ed;padding-top: 20px;padding-bottom: 40px;}
+.gallery_banner{background-image: url(../img/banner.png);}
+.gallery_banner_title{display: inline-block;vertical-align: top;margin-top: 102px;margin-left: 61px;font-family: Lato;
+    font-size: 50px;
+    font-weight: 700;width: 294px;margin-right: 64px;}
