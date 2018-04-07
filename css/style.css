@@ -178,6 +178,7 @@ body {
     font-weight: 700;
     width: 294px;
     margin-right: 64px;
+    font-family: Lato;
 }
 
 .slider_control {
@@ -185,4 +186,51 @@ body {
     width: 14px;
     height: 14px;
     border-radius: 50%;
+}
+
+/* features */
+
+.features_wrapper {
+    outline: 1px solid red;
+    float: left;
+    margin-right: 45px;
+    width: 216px;
+}
+
+.features_wrapper:last-child {
+    margin-right: 0;
+}
+
+.features_title {
+    outline: 1px solid green;
+    margin: 0;
+    text-align: left;
+    color: #000000;
+    font-family: "Arial-BoldMT", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.features_description {
+    outline: 1px solid blue;
+    text-align: left;
+    color: #363636;
+    font-family: "ArialMT", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+}
+
+.features_link {
+    outline: 1px solid purple;
+    text-decoration: none;
+    color: #2aacc8;
+    font-family: "ArialMT", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
 }
