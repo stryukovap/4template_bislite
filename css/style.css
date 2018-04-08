@@ -323,7 +323,6 @@ body {
     padding-left: 39px;
     margin: 0;
     margin-top: 26px;
-    
 }
 
 .last_works_title_wrapper::before {
@@ -381,51 +380,70 @@ body {
     background-position-x: 6.5px;
     background-position-y: 5px;
 }
-.last_works_gallery_img{
+
+.last_works_gallery_img {
     display: block;
     float: left;
     margin-left: 40px;
     padding-top: 20px;
     padding-bottom: 40px;
-    position: relative;
+    /* position: relative; */
 }
-.last_works_gallery_img:first-child{
+
+.last_works_gallery_img:first-child {
     margin: 0;
 }
-.last_works_gallery{
+
+.last_works_gallery {
     border-top: 1px solid #dfe1e5;
     border-bottom: 1px solid #dfe1e5;
     margin-top: 16px;
 }
-.last_works_gallery_img_hover{
-    background-color: aqua;
-    display: inline-block;
-    /* position: relative;
-    width: 100%;
-    height: 50%; */
+
+.last_works_gallery_img_hover_preview,
+.last_works_gallery_img_hover_link {
+    font-size: 0;
 }
-.last_works_gallery_img_hover_preview{
+
+.last_works_gallery_img_hover {
+    background-color: #2aacc8;
     display: inline-block;
-    /* padding-left: 69px; */
-    position: relative;
-    width: 110px;
-    height: 80px;
+    width: 220px;
+    height: 81px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    /* display: none; */
 }
-..last_works_gallery_img_hover_preview::before{
+
+/* .last_works_gallery_img:hover .ast_works_gallery_img_hover{
+    display: block;
+} */
+
+.wrapper {
+    position: absolute;
+}
+
+.last_works_gallery_img_hover_preview::before {
     content: "";
     width: 35px;
     height: 25px;
     background-image: url(../img/preview_35x25.png);
     background-repeat: no-repeat;
     background-size: 35px 25px;
-    background-position: center center;
+    left: 69px;
+    top: 29px;
     position: absolute;
 }
-/* .last_works_gallery_img_hover_link{
-    display: inline-block;
-    padding-right: 61px;
+
+.last_works_gallery_img_hover_link::before {
+    content: "";
     width: 20px;
     height: 26px;
     background-image: url(../img/link_20x26.png);
     background-repeat: no-repeat;
-} */
+    background-size: 20px 26px;
+    left: 139px;
+    top: 28px;
+    position: absolute;
+}
