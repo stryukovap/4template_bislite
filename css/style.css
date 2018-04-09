@@ -901,8 +901,9 @@ share {
 }
 
 .main_footer_contact_explore_list_item,
-.main_footer_contact_browse_list_item {
-    padding-top: 5px;
+.main_footer_contact_browse_list_item,
+.main_footer_contact_about_text {
+    padding-top: 14px;
 }
 
 .main_footer_contact_explore_list,
