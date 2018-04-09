@@ -94,6 +94,10 @@ body {
     padding: 0 20px 0 25px;
 }
 
+.dropdown_link {
+    padding: 0 20px 0 10px;
+}
+
 .main_submenu_list_item {
     list-style: none;
     padding: 0;
@@ -133,7 +137,7 @@ body {
     font-size: 13px;
     font-weight: 400;
     line-height: 36px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 .dropdown:hover .main_menu_list_item_link {
@@ -166,6 +170,8 @@ body {
 
 .gallery_banner {
     background-image: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .gallery_banner_title {
@@ -179,14 +185,51 @@ body {
     width: 294px;
     margin-right: 64px;
     font-family: Lato;
+    color: #ffffff;
 }
 
-.slider_control {
-    background-color: #626262;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
+.slider_controls {
+    /* background-color: #626262; */
+    /* width: 14px; */
+    /* height: 40px; */
+    /* border-radius: 50%; */
+    text-align: center;
 }
+
+.slider_controls_radio_label {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.slider_controls_radio {
+    display: none;
+}
+
+.slider_controls_radio_label::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #626262;
+    background-size: 15px 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.slider_controls_radio:checked+.slider_controls_radio_label::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    background-size: 15px 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* input:checked + label  */
 
 /* features */
 
