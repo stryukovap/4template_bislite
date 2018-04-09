@@ -413,12 +413,14 @@ body {
     position: absolute;
     top: 100px;
     left: 0;
-    /* display: none; */
+    display: none;
 }
 
-/* .last_works_gallery_img:hover .ast_works_gallery_img_hover{
+.last_works_gallery_img_wrapper:hover .last_works_gallery_img_hover{
+    /* border: 1px solid red; */
+    /* display: inline-block; */
     display: block;
-} */
+}
 
 .wrapper {
     position: absolute;
