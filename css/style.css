@@ -530,7 +530,9 @@ body {
     padding-top: 32px;
     padding-bottom: 30px;
 }
-
+.dowload_link:hover{
+    color: #ffffff;
+}
 .dowload_link {
     text-decoration: none;
     color: #0d0707;
