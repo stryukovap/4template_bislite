@@ -457,7 +457,8 @@ body {
     position: relative;
     padding-left: 40px;
 }
-.testimonials_title::before{
+
+.testimonials_title::before {
     content: "";
     width: 24px;
     height: 23px;
@@ -467,7 +468,8 @@ body {
     position: absolute;
     left: 0;
 }
-.our_clients_title::before{
+
+.our_clients_title::before {
     content: "";
     width: 24px;
     height: 20px;
@@ -550,9 +552,11 @@ body {
     padding-top: 32px;
     padding-bottom: 30px;
 }
-.dowload_link:hover{
+
+.dowload_link:hover {
     color: #ffffff;
 }
+
 .dowload_link {
     text-decoration: none;
     color: #0d0707;
@@ -591,6 +595,114 @@ body {
     display: inline-block;
     position: absolute;
 }
-.download.container{
+
+.download.container {
     width: 998px;
+}
+
+.main_footer {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #e8ebf1;
+    margin-top: 40px;
+}
+
+.main_footer_contact {
+    margin-top: 32px;
+}
+
+.main_footer_contact_about,
+.main_footer_contact_explore,
+.main_footer_contact_browse,
+.main_footer_contact_us,
+.main_footer_contact_social {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main_footer_contact_about_title,
+.main_footer_contact_explore_title,
+.main_footer_contact_browse_title,
+.main_footer_contact_us_title,
+.main_footer_contact_social_title {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+}
+
+.main_footer_contact_about {
+    width: 233px;
+    color: #363636;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main_footer_contact_explore {
+    width: 71px;
+    color: #363636;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main_footer_contact_browse {
+    width: 104px;
+    color: #363636;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main_footer_contact_us {
+    width: 135px;
+    color: #363636;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main_footer_contact_social {
+    width: 193px;
+    color: #363636;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.main_footer_contact_explore_list_item_link, 
+.main_footer_contact_browse_list_item_link{
+    color: #363636;
+    text-decoration: none;
+}
+.main_footer_contact_explore_list_item_link:hover, 
+.main_footer_contact_browse_list_item_link:hover{
+text-decoration-color: #363636;
+text-decoration-line: underline;
+text-decoration-style: solid;
+}
+.main_footer_contact_explore_list_item,
+.main_footer_contact_browse_list_item,
+.main_footer_contact_social_list{
+    list-style: none;
+    /* padding: 0; */
+}
+.main_footer_contact_explore_list, 
+.main_footer_contact_browse_list,
+.main_footer_contact_social_list{
+    padding: 0;
+}
+.main_footer_contact_explore{
+    margin-left: 67px;
+}
+.main_footer_contact_browse{
+    margin-left: 77px;
+}
+.main_footer_contact_us{
+    margin-left: 65px;
+}
+.main_footer_contact_social{
+    margin-left: 30px;
 }
