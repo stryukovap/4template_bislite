@@ -454,6 +454,28 @@ body {
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+    position: relative;
+    padding-left: 40px;
+}
+.testimonials_title::before{
+    content: "";
+    width: 24px;
+    height: 23px;
+    background-image: url(../img/comments_24x23.png);
+    background-repeat: no-repeat;
+    background-size: 24px 23px;
+    position: absolute;
+    left: 0;
+}
+.our_clients_title::before{
+    content: "";
+    width: 24px;
+    height: 20px;
+    background-image: url(../img/clients_24x20.png);
+    background-repeat: no-repeat;
+    background-size: 24px 20px;
+    position: absolute;
+    left: 0;
 }
 
 .testimonials_text {
@@ -482,7 +504,6 @@ body {
     display: inline-block;
     width: 50%;
     vertical-align: top;
-    /* min-height: 320px; */
 }
 
 .row {
@@ -496,7 +517,6 @@ body {
     border: 1px solid #e8ebf1;
     background-color: #ffffff;
     display: inline-block;
-    /* vertical-align: top; */
     text-align: center;
 }
 
