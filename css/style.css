@@ -654,7 +654,7 @@ body {
 }
 
 .main_footer_contact_browse {
-    width: 104px;
+    width: 108px;
     color: #363636;
     font-family: "Arial", sans-serif;
     font-size: 14px;
@@ -676,79 +676,95 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
-.main_footer_contact_explore_list_item_link, 
-.main_footer_contact_browse_list_item_link{
+
+.main_footer_contact_explore_list_item_link,
+.main_footer_contact_browse_list_item_link {
     color: #363636;
     text-decoration: none;
 }
-.main_footer_contact_explore_list_item_link:hover, 
-.main_footer_contact_browse_list_item_link:hover{
-text-decoration-color: #363636;
-text-decoration-line: underline;
-text-decoration-style: solid;
+
+.main_footer_contact_explore_list_item_link:hover,
+.main_footer_contact_browse_list_item_link:hover {
+    text-decoration-color: #363636;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
 }
+
 .main_footer_contact_explore_list_item,
 .main_footer_contact_browse_list_item,
-.main_footer_contact_social_list{
+.main_footer_contact_social_list {
     list-style: none;
     /* padding: 0; */
 }
-.main_footer_contact_explore_list, 
+
+.main_footer_contact_explore_list,
 .main_footer_contact_browse_list,
-.main_footer_contact_social_list{
+.main_footer_contact_social_list {
     padding: 0;
 }
-.main_footer_contact_explore{
+
+.main_footer_contact_explore {
     margin-left: 67px;
 }
-.main_footer_contact_browse{
+
+.main_footer_contact_browse {
     margin-left: 77px;
 }
-.main_footer_contact_us{
+
+.main_footer_contact_us {
     margin-left: 65px;
 }
-.main_footer_contact_social{
+
+.main_footer_contact_social {
     margin-left: 30px;
 }
-.main_footer_copy_text{
+
+.main_footer_copy_text {
     float: left;
     vertical-align: top;
     width: 640px;
     color: #363636;
     font-family: "Arial", sans-serif;
-font-size: 13px;
-font-weight: 400;
-line-height: 18px;
-margin-top: 43px;
-margin-bottom: 53px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 43px;
+    margin-bottom: 53px;
 }
-.main_footer_copy_logo{
+
+.main_footer_copy_logo {
     float: right;
     vertical-align: top;
     padding: 0;
     margin-top: 41px;
 }
+
 .main_footer_contact_about_text,
-.main_footer_contact_social_list{
+.main_footer_contact_social_list {
     margin: 0;
 }
-.main_footer_contact_social_list_item{
-    
+
+.main_footer_contact_social_list_item {
     font-size: 0;
 }
+
 /* .main_footer_contact_social_list_item_link{
     position: relative;
     display: inline-block;
     width: 53px; */
 
-.facebook, .dribbble,
-.pinterest, .linkedin,
-.skype, share{
+.facebook,
+.dribbble,
+.pinterest,
+.linkedin,
+.skype,
+share {
     position: relative;
     display: inline-block;
     /* margin-left: 17px; */
     /* width: 53px; */
 }
+
 .facebook::before {
     content: "";
     width: 53px;
@@ -760,8 +776,10 @@ margin-bottom: 53px;
     top: 15px; */
     display: inline-block;
     position: absolute;
-    margin-left: 0; margin-top: 20px;
+    margin-left: 0;
+    margin-top: 20px;
 }
+
 .dribbble::before {
     content: "";
     width: 53px;
@@ -773,8 +791,10 @@ margin-bottom: 53px;
     top: 15px; */
     display: inline-block;
     position: absolute;
-    margin-left: 70px; margin-top: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
+
 .pinterest::before {
     content: "";
     width: 53px;
@@ -789,6 +809,7 @@ margin-bottom: 53px;
     margin-left: 140px;
     margin-top: 20px;
 }
+
 .linkedin::before {
     content: "";
     width: 53px;
@@ -803,6 +824,7 @@ margin-bottom: 53px;
     margin-left: 0px;
     margin-top: 80px;
 }
+
 .skype::before {
     content: "";
     width: 53px;
@@ -817,6 +839,7 @@ margin-bottom: 53px;
     margin-left: 70px;
     margin-top: 80px;
 }
+
 .share::before {
     content: "";
     width: 53px;
@@ -831,9 +854,13 @@ margin-bottom: 53px;
     margin-left: 140px;
     margin-top: 80px;
 }
+
 .main_footer_contact_explore_list_item,
-.main_footer_contact_browse_list_item{
+.main_footer_contact_browse_list_item {
     padding-top: 5px;
 }
+
 .main_footer_contact_explore_list,
-.main_footer_contact_browse_list{margin: 0;}
+.main_footer_contact_browse_list {
+    margin: 0;
+}
