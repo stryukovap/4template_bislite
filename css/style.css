@@ -206,7 +206,9 @@ body {
 .slider_controls_radio {
     display: none;
 }
-
+.slider_controls_radio_label:hover{
+cursor: pointer;
+}
 .slider_controls_radio_label::before {
     content: "";
     width: 15px;
