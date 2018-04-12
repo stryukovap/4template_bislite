@@ -1,6 +1,6 @@
 :root {
     --container: 1000;
-  }
+}
 
 .main_footer {
     border: 1px solid rgba(0, 0, 0, 0.15);
@@ -90,13 +90,16 @@
 .main_footer_contact_us_adres_list_item {
     padding-top: 14px;
 }
-.main_footer_contact_us_adres_list_item{
+
+.main_footer_contact_us_adres_list_item {
     padding-top: 0;
 }
-.main_footer_contact_us_adres_list_item:first-child{
+
+.main_footer_contact_us_adres_list_item:first-child {
     padding-top: 14px;
 }
-.main_footer_contact_us_adres_list_item:nth-child(4){
+
+.main_footer_contact_us_adres_list_item:nth-child(4) {
     padding-top: 14px;
 }
 
@@ -204,4 +207,8 @@
     vertical-align: top;
     padding: 0;
     margin-top: 64px;
+}
+
+.logo_link {
+    text-decoration: none;
 }
