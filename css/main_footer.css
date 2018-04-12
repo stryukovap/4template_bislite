@@ -1,3 +1,7 @@
+:root {
+    --container: 1000;
+  }
+
 .main_footer {
     border: 1px solid rgba(0, 0, 0, 0.15);
     background-color: #e8ebf1;
@@ -42,7 +46,7 @@
 }
 
 .main_footer_contact_about {
-    width: 233px;
+    width: calc(233 / var(--container) * 100%);
 }
 
 .main_footer_contact_explore {
@@ -57,13 +61,9 @@
     width: 140px;
 }
 
-/* .main_footer_contact_social {
+.main_footer_contact_social {
     width: 193px;
-    color: #363636;
-    font-family: "Arial", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-} */
+}
 
 .main_footer_contact_explore_list_item_link,
 .main_footer_contact_browse_list_item_link {
@@ -83,7 +83,6 @@
 .main_footer_contact_social_list,
 .main_footer_contact_us_adres_list {
     list-style: none;
-    /* padding: 0; */
 }
 
 .main_footer_contact_explore_list_item,
@@ -125,6 +124,60 @@
     margin-left: 30px;
 }
 
+.main_footer_contact_social_list,
+.main_footer_contact_social_list_item {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.main_footer_contact_social_list_item {
+    margin-right: 17px;
+    margin-top: 20px;
+}
+
+.main_footer_contact_social_list_item_link {
+    width: 53px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-size: 53px 51px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    outline: 1px solid red;
+    font-size: 0;
+}
+
+.main_footer_contact_social_list_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.facebook {
+    background-image: url("../img/facebook_53x51.png");
+}
+
+.dribbble {
+    background-image: url("../img/dribbble_53x51.png");
+}
+
+.pinterest {
+    background-image: url("../img/pinterest_53x51.png");
+}
+
+.linkedin {
+    background-image: url("../img/linkedin_53x51.png");
+}
+
+.skype {
+    background-image: url("../img/skype_53x51.png");
+}
+
+.share {
+    background-image: url("../img/share_53x51.png");
+}
+
 .main_footer_copy_text {
     float: left;
     vertical-align: top;
@@ -143,12 +196,4 @@
     vertical-align: top;
     padding: 0;
     margin-top: 41px;
-}
-
-.main_footer_contact_social_list {
-    margin: 0;
-}
-
-.main_footer_contact_social_list_item {
-    font-size: 0;
 }
