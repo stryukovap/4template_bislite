@@ -28,7 +28,7 @@
 .main_footer_contact_social_title {
     text-transform: uppercase;
     color: #000000;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
@@ -40,7 +40,7 @@
 .main_footer_contact_browse,
 .main_footer_contact_us {
     color: #363636;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -194,7 +194,7 @@
     vertical-align: top;
     width: 640px;
     color: #363636;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 18px;

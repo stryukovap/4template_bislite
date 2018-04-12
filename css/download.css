@@ -7,7 +7,7 @@
 
 .dowload_description {
     color: #363636;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -25,7 +25,7 @@
 .dowload_link {
     text-decoration: none;
     color: #0d0707;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;

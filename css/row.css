@@ -2,7 +2,7 @@
 .testimonials_title,
 .our_clients_title {
     color: #000000;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
@@ -35,7 +35,7 @@
 
 .testimonials_text {
     color: #363636;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -44,7 +44,7 @@
 
 .testimonials_author {
     color: #363636;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 14px;
@@ -53,12 +53,10 @@
 
 .testimonials {
     display: inline-block;
-    /* width: 50%; */
 }
 
 .our_clients {
     display: inline-block;
-    /* width: 50%; */
     vertical-align: top;
     width: 480px;
     margin-left: 95px;

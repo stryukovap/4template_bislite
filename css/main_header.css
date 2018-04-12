@@ -52,7 +52,7 @@
 .main_menu_list_item_link {
     text-decoration: none;
     color: #000000;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
@@ -99,7 +99,7 @@
 .main_submenu_list_item_link {
     text-decoration: none;
     color: #000000;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial MT', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 36px;
