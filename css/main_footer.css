@@ -50,19 +50,19 @@
 }
 
 .main_footer_contact_explore {
-    width: 71px;
+    width: calc(71 / var(--container) * 100%);
 }
 
 .main_footer_contact_browse {
-    width: 108px;
+    width: calc(108 / var(--container) * 100%);
 }
 
 .main_footer_contact_us {
-    width: 140px;
+    width: calc(140 / var(--container) * 100%);
 }
 
 .main_footer_contact_social {
-    width: 193px;
+    width: calc(193 / var(--container) * 100%);
 }
 
 .main_footer_contact_explore_list_item_link,
@@ -88,6 +88,15 @@
 .main_footer_contact_explore_list_item,
 .main_footer_contact_browse_list_item,
 .main_footer_contact_us_adres_list_item {
+    padding-top: 14px;
+}
+.main_footer_contact_us_adres_list_item{
+    padding-top: 0;
+}
+.main_footer_contact_us_adres_list_item:first-child{
+    padding-top: 14px;
+}
+.main_footer_contact_us_adres_list_item:nth-child(4){
     padding-top: 14px;
 }
 
@@ -146,7 +155,6 @@
     display: inline-block;
     vertical-align: top;
     background-position: center center;
-    outline: 1px solid red;
     font-size: 0;
 }
 
@@ -195,5 +203,5 @@
     float: right;
     vertical-align: top;
     padding: 0;
-    margin-top: 41px;
+    margin-top: 64px;
 }
